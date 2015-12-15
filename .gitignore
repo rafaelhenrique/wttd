@@ -1,3 +1,7 @@
+# virtualenv
+.wttd
+
+#
 *.py[cod]
 *.log
 *.sqlite3
