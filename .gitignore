@@ -1,6 +1,9 @@
 # virtualenv
 .wttd
 
+# Python decouple
+.env
+
 #
 *.py[cod]
 *.log
