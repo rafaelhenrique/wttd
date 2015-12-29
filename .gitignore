@@ -9,6 +9,9 @@
 *.log
 *.sqlite3
 
+# static
+staticfiles
+
 # C extensions
 *.so
 
