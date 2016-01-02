@@ -1,20 +1,25 @@
 <h1>Formulário de Inscrição</h1>
 <form action="." method="post">
+  {% csrf_token %}
   <p>
-    <label for="ïd_name">Nome:</label>
-    <input id="id_name" type="text" name="name" maxlength="100"/>
+    <label for="{{ form.name.id_for_label }}">{{ form.name.label }}</label>
+    {{ form.name.errors }}
+    {{ form.name }}
   </p>
   <p>
-    <label for="id_cpf">CPF:</label>
-    <input id="id_cpf" type="text" name="cpf" maxlength="11"/>
+    <label for="{{ form.cpf.id_for_label }}">{{ form.cpf.label }}</label>
+    {{ form.cpf.errors }}
+    {{ form.cpf }}
   </p>
   <p>
-    <label for="ïd_email">Email:</label>
-    <input id="id_email" type="email" name="enamil" maxlength="75"/>
+    <label for="{{ form.email.id_for_label }}">{{ form.email.label }}</label>
+    {{ form.email.errors }}
+    {{ form.email }}
   </p>
   <p>
-    <label for="ïd_phone">Nome:</label>
-    <input id="id_phone" type="text" name="phone" maxlength="20"/>
+    <label for="{{ form.phone.id_for_label }}">{{ form.phone.label }}</label>
+    {{ form.phone.errors }}
+    {{ form.phone }}
   </p>
   <input type="submit" value="Enviar!"/>
 </form>
