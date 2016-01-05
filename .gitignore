@@ -1,3 +1,6 @@
+# ipython notebook
+.ipynb_checkpoints/
+
 # virtualenv
 .wttd
 
