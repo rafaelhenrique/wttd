@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/rafaelhenrique/wttd.svg?branch=master)](https://travis-ci.org/rafaelhenrique/wttd)
 # Eventex
 
 Eventex is a project of course Welcome to the Django (welcometothedjango.com.br) by Henrique Bastos.
