@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     # third part apps
+    'test_without_migrations',
     'django_extensions',
     # my apps
     'eventex.core',
