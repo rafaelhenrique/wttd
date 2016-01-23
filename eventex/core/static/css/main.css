@@ -351,12 +351,24 @@ section header h2 {
     border: 1px solid transparent;
     border-radius: .25rem;
 }
+
 .alert p {
     padding: 7px 0 7px;
 }
+
 .alert.success{
     color: #3c763b;
     background-color: #dff0b8;
-    border-color: #d0e9c6; 
+    border-color: #d0e9c6;
 }
+
+.speakers h2 {
+    text-transform: uppercase;
+}
+
+.speakers img {
+    border-radius: 100%;
+    width: 200px;
+}
+
 /* Fim Customização */
