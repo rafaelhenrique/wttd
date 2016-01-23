@@ -13,15 +13,13 @@ class ContactModelTest(TestCase):
         )
 
     def test_email(self):
-        contact = Contact.objects.create(speaker=self.speaker,
-                                         kind=Contact.EMAIL,
-                                         value='rafael@abraseucodigo.com.br')
+        Contact.objects.create(speaker=self.speaker, kind=Contact.EMAIL,
+                               value='rafael@abraseucodigo.com.br')
         self.assertTrue(Contact.objects.exists())
 
     def test_phone(self):
-        contact = Contact.objects.create(speaker=self.speaker,
-                                         kind=Contact.PHONE,
-                                         value='11-900001000')
+        Contact.objects.create(speaker=self.speaker, kind=Contact.PHONE,
+                               value='11-900001000')
         self.assertTrue(Contact.objects.exists())
 
     def test_choices(self):
