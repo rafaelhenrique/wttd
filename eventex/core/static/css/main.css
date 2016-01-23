@@ -371,4 +371,9 @@ section header h2 {
     width: 200px;
 }
 
+.speakers img.photo {
+    float: left;
+    padding-right: 15px;
+}
+
 /* Fim Customização */
