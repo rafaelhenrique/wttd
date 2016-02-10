@@ -25,12 +25,12 @@ class SpeakerModelAdmin(admin.ModelAdmin):
     photo_img.short_description = 'foto'
 
     def email(self, obj):
-        return obj.contact_set(manager='emails').first()
+        return obj.contact_set.emails().first()
 
     email.short_description = 'e-mail'
 
     def phone(self, obj):
-        return obj.contact_set(manager='phones').first()
+        return obj.contact_set.phones().first()
 
     phone.short_description = 'telefone'
 
